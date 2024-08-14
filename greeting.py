@@ -1,4 +1,6 @@
-def greeting():
-    print("Hello! Its Eleazar William")
+def greeting(fname, sname,):
+    greet = fname + " " + sname
+    
+    return greet
 
-print = greeting()
+print(greeting("Eleazar", "William"))
